@@ -7,9 +7,15 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --write 'src/**/*.tsx' index.js App.tsx"
   },
   "dependencies": {
+    "@testing-library/react-native": "^7.1.0",
+    "axios": "^0.21.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "2.1.2",
     "react": "16.13.1",
     "react-native": "0.63.3"
   },
